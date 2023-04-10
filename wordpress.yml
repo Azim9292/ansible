@@ -1,13 +1,13 @@
 - hosts: appservers-php
   sudo: yes
   vars:
-    - mysql_root_password: "SuperP@S$w0rd"
+    - mysql_root_password: "07072110"
     - domain: "example.com"
     - download_url: "http://wordpress.org/latest.tar.gz"
     - wpdirectory: "/var/www"
-    - db_name: "wordpress"
-    - db_user: "wordpress"
-    - db_password: "wordpress"
+    - db_name: "azim_db"
+    - db_user: "azim"
+    - db_password: "07072110"
   roles:
   - { role: nginx }
   - { role: percona-mysql }
