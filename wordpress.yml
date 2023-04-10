@@ -1,5 +1,4 @@
 - hosts: appservers-php
-  sudo: yes
   vars:
     - mysql_root_password: "07072110"
     - domain: "example.com"
